@@ -1,0 +1,15 @@
+services:
+
+  frontend:
+    image: nginx:stable
+    ports:
+      - "8080:80"
+    volumes:
+      - C:/Users/BASAVARAJ/Desktop/Dev/Docker/frontend/html:/usr/share/nginx/html
+    depends_on:
+      - backend
+
+  backend:
+    build: ./backend
+    ports:
+      - "5000:5000"
