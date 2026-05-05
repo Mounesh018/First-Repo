@@ -1,0 +1,39 @@
+# Node.js CI/CD Pipeline using Jenkins
+
+## 🚀 Overview
+
+This project demonstrates a complete CI/CD pipeline using Jenkins.
+
+## ⚙️ Tools Used
+
+* Jenkins
+* Docker
+* Node.js
+* GitHub
+
+## 🔁 Pipeline Stages
+
+1. Source Stage (GitHub trigger)
+2. Build Stage (npm install)
+3. Test Stage (Jest + ESLint)
+4. Security Scan (npm audit)
+5. Containerization (Docker build & push)
+6. Deploy Stage (Docker container)
+7. Notification Stage
+
+## 🐳 Run Locally
+
+```
+npm install
+npm start
+```
+
+## 🧪 Run Tests
+
+```
+npm test
+```
+
+## 🌐 Access App
+
+http://localhost:3000
